@@ -49,6 +49,7 @@ public class EmployeeController {
 	@Getmapping("/hello")
 	public String hello() {
 		
+		System.out.println("hai")
 		return "hai from hello";
 	}
 }
