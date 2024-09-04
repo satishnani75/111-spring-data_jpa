@@ -45,4 +45,10 @@ public class EmployeeController {
 			return false;
 		}
 	}
+	
+	@Getmapping("/hello")
+	public String hello() {
+		
+		return "hai from hello";
+	}
 }
